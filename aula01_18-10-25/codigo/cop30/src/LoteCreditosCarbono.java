@@ -7,15 +7,21 @@ public class LoteCreditosCarbono {
     private Set<Integer> idsProprietarios;
     private Set<String> historicoLote;
 
+    // CONSTRUTOR VAZIO
+
     public LoteCreditosCarbono() {
     }
 
+    // CONSTRUTOR COM TODOS OS ATRIBUTOS
+    
     public LoteCreditosCarbono(int idLoteCreditosCarbono, Set<Integer> idsCreditosCarbono, Set<Integer> idsProprietarios, Set<String> historicoLote) {
         this.idLoteCreditosCarbono = idLoteCreditosCarbono;
         this.idsCreditosCarbono = idsCreditosCarbono;
         this.idsProprietarios = idsProprietarios;
         this.historicoLote = historicoLote;
     }
+
+    // GETTERS E SETTERS
 
     public int getIdLoteCreditosCarbono() {
         return idLoteCreditosCarbono;
@@ -60,3 +66,4 @@ public class LoteCreditosCarbono {
     }
 
 }
+
